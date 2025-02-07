@@ -12,8 +12,9 @@
 // contoh penggunaan callback
 
 function mengambilData(callback){
-  console.log('mengambil data...');
+  console.log('Proses memakan waktu 3 detik....')
   setTimeout(() => {
+    console.log('mengambil data...');
     callback();
   }, 3000) // proses pengambilan data akan memakan waktu 3 detik
 }
@@ -35,7 +36,7 @@ mengambilData(validasi);
 
 // function mengambilData(){
 //   setTimeout(() => {
-//     console.log('mengambil data...123');
+//     console.log('mengambil data...');
 //   }, 3000) // proses pengambilan data akan memakan waktu 3 detik
 // }
 
