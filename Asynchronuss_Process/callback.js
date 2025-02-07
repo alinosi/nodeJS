@@ -12,8 +12,8 @@
 // contoh penggunaan callback
 
 function mengambilData(callback){
+  console.log('mengambil data...');
   setTimeout(() => {
-    console.log('mengambil data...');
     callback();
   }, 3000) // proses pengambilan data akan memakan waktu 3 detik
 }
