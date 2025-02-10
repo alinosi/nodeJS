@@ -10,8 +10,16 @@ function prosesTransaksi(nama) {
     return validasiPembayaran; // Mengembalikan fungsi validasi
   }
   
-  const transaksiBudi = prosesTransaksi('budi')(100000); // Panggil fungsi utama
-  console.log(transaksiBudi);              // Gunakan fungsi di dalamnya
+  const transaksiBudi = prosesTransaksi('budi'); // Panggil fungsi utama
+  console.log(transaksiBudi(1000));              // Gunakan fungsi di dalamnya
+
+  function percobaanProsesTransaksi(nama,jumlah){
+    if (jumlah > 0) {
+      return `Pembayaran ${nama} sebesar ${jumlah} berhasil.`;
+    } else {
+      return `Gagal memproses pembayaran untuk ${nama}.`;
+    }
+  }
   
 //   function test(name) {
 //     return `hello ${name}`;
