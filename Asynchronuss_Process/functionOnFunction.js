@@ -10,15 +10,15 @@ function prosesTransaksi(nama) {
     return validasiPembayaran; // Mengembalikan fungsi validasi
   }
   
-  //const transaksiBudi = prosesTransaksi(); // Panggil fungsi utama
-  //console.log(transaksiBudi(100000));              // Gunakan fungsi di dalamnya
+  const transaksiBudi = prosesTransaksi('budi')(100000); // Panggil fungsi utama
+  console.log(transaksiBudi);              // Gunakan fungsi di dalamnya
   
-  function test(name) {
-    return `hello ${name}`;
-  }
+//   function test(name) {
+//     return `hello ${name}`;
+//   }
   
-  const DirectValue = test(); // variabel akan menyimpan hasil eksekusi function test
-  const RepresentationalFunction = test; // variabel menjadi representasi function test
+//   const DirectValue = test('daniel'); // variabel akan menyimpan hasil eksekusi function test
+//   const RepresentationalFunction = test; // variabel menjadi representasi function test
   
-  console.log(test('daniel'))
-  console.log(testing)
+//   console.log(test('daniel'))
+//   console.log(testing)
