@@ -29,7 +29,6 @@ for (let i = 0; i < 1e9; i++) {
     // Proses berlangsung (tidak ada output di sini)
 }
 
-
 console.log("Proses 2: Selesai setelah proses berat");
 // Output :
 // Proses 1: Mulai
