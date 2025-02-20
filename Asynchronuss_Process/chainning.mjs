@@ -26,5 +26,5 @@ makeCoffee(order)
     },
   )
   .catch((error) => {
-    console.log(error.message);
+    console.log(error.message); // throwing error yang terjadi di error sebelumnya akan di tangkap di sini
   });
