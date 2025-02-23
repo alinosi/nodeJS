@@ -7,3 +7,4 @@ function promiseExecutor(resolve, reject) {
   export function doSomething() {
     return new Promise(promiseExecutor);
   }
+
