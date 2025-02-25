@@ -9,10 +9,10 @@ try {
     console.log('Karena tidak ada error, blok ini akan diabaikan');
   }
 
-// contoh errpr
+// contoh error
 try {
     console.log('Memulai program');
-    throw new Error('Error: Program berhenti');
+    throw new Error('Program berhenti');
     console.log('Mengakhiri program'); // tidak dieksekusi karena throw mengakhiri program langsung
   } catch (err) {
     console.log('Karena ada error, blok ini akan dieksekusi');
