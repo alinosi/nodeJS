@@ -3,6 +3,13 @@
  * In programming there is not just write a code, but they have style guide  
  * this will make the code more readable and avoid inconsistent style
  * 
+ * Hal yang harus diperhatikan dalam gaya menulis
+ * Penggunaan tanda titik-koma (semicolon).
+ * Gaya nama variabel.
+ * Penempatan komentar dalam kode.
+ * Penggunaan block-code (curly-bracket), seperti dalam percabangan.
+ * Banyak assignment secara sekaligus dan masih banyak lainnya lagi.
+ * 
  * For the example
  * unconsistent style 
  */
